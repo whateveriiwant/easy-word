@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import Logo from "../assets/header/logo.svg?react";
+import { Footer } from "../components/Footer";
 
 export const MainPage = () => {
   return (
@@ -9,6 +10,7 @@ export const MainPage = () => {
         <Logo width="17rem" />
         <div className="w-[45rem] h-[7rem] mt-8 rounded-xl border border-gray"></div>
       </div>
+      <Footer />
     </div>
   );
 };
